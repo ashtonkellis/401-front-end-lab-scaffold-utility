@@ -44,6 +44,7 @@ you have to open the package.json file and copy paste this JSON directly nested 
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.5",
     "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
@@ -72,7 +73,9 @@ you have to open the package.json file and copy paste this JSON directly nested 
   },
   "dependencies": {
     "dotenv": "^6.0.0",
+    "react-router-dom": "^4.3.1",
     "superagent": "^3.8.3"
+    "uuid": "^3.3.2"
   }
 ```
 
