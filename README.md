@@ -9,6 +9,8 @@ mkdir src
 mkdir src/components
 mkdir src/style
 mkdir src/lib
+mkdir __test__
+mkdir __test__/mocks
 
 touch src/main.js
 touch src/style/main.scss
@@ -17,6 +19,12 @@ touch src/lib/utils.js
 npm init -y
 
 curl -o README.md https://raw.githubusercontent.com/ashtonkellis/401-Lab-Scaffolding/master/readme-template.md
+
+curl -o src/s/_base.scss
+curl -o src/style/_reset.scss
+curl -o src/style/_vars.scss
+
+curl -o __test__/mocks/styleMock.js 
 
 curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/.babelrc
 curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/.eslintignore
@@ -34,8 +42,13 @@ code .
 this part is not your terminal/bash. 
 you have to open the package.json file and copy paste this JSON directly nested in the object
 ```
+  "jest": {
+    // add module name mapper here from code demo
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "eslint --fix . && jest --coverage",
+    "testWatch": "jest --coverage --watchAll",
+    "test-nolint": "jest --coverage",
     "watch": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint --fix **/*.js"
