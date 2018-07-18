@@ -43,7 +43,10 @@ this part is not your terminal/bash.
 you have to open the package.json file and copy paste this JSON directly nested in the object
 ```
   "jest": {
-    // add module name mapper here from code demo
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/__test__/mocks/styleMock.js",
+      "\\.(css|less|scss)$": "<rootDir>/src/__test__/mocks/styleMock.js"
+    }
   },
   "scripts": {
     "test": "eslint --fix . && jest --coverage",
@@ -51,9 +54,9 @@ you have to open the package.json file and copy paste this JSON directly nested 
     "test-nolint": "jest --coverage",
     "watch": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "lint": "eslint --fix **/*.js"
+    "lint": "eslint --fix ."
   },
-    "devDependencies": {
+   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.5",
     "babel-loader": "^7.1.5",
@@ -87,7 +90,6 @@ you have to open the package.json file and copy paste this JSON directly nested 
   "dependencies": {
     "dotenv": "^6.0.0",
     "react-router-dom": "^4.3.1",
-    "superagent": "^3.8.3"
     "uuid": "^3.3.2"
   }
 ```
