@@ -1,5 +1,5 @@
 # 401-Front-End-Lab-Scaffolding Steps 
-### Last Update: Monday July 16
+### Last Update: Tuesday July 17
 
 ## CD into your repo, then copy-paste this block of code into your terminal and the magic will happen
 ```
@@ -20,7 +20,7 @@ npm init -y
 
 curl -o README.md https://raw.githubusercontent.com/ashtonkellis/401-Lab-Scaffolding/master/readme-template.md
 
-curl -o src/s/_base.scss https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/src/style/_base.scss
+curl -o src/style/_base.scss https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/src/style/_base.scss
 curl -o src/style/_reset.scss https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/src/style/_reset.scss
 curl -o src/style/_vars.scss https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/src/style/_vars.scss
 
