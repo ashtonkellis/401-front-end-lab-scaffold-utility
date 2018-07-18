@@ -9,8 +9,8 @@ mkdir src
 mkdir src/components
 mkdir src/style
 mkdir src/lib
-mkdir __test__
-mkdir __test__/mocks
+mkdir src/__test__
+mkdir src/__test__/mocks
 
 touch src/main.js
 touch src/style/main.scss
@@ -20,11 +20,11 @@ npm init -y
 
 curl -o README.md https://raw.githubusercontent.com/ashtonkellis/401-Lab-Scaffolding/master/readme-template.md
 
-curl -o src/s/_base.scss
-curl -o src/style/_reset.scss
-curl -o src/style/_vars.scss
+curl -o src/s/_base.scss https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/src/style/_base.scss
+curl -o src/style/_reset.scss https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/src/style/_reset.scss
+curl -o src/style/_vars.scss https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/src/style/_vars.scss
 
-curl -o __test__/mocks/styleMock.js 
+curl -o src/__test__/mocks/styleMock.js https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/src/__test__/mocks/styleMock.js
 
 curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/.babelrc
 curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/.eslintignore
