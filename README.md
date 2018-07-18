@@ -26,7 +26,7 @@ curl -o src/style/_vars.scss https://raw.githubusercontent.com/codefellows/seatt
 
 curl -o src/__test__/mocks/styleMock.js https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/src/__test__/mocks/styleMock.js
 
-curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/.babelrc
+curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/.babelrc
 curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/.eslintignore
 curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/.eslintrc.json
 curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/.gitignore
