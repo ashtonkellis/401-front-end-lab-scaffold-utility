@@ -3,39 +3,7 @@
 
 ## CD into your repo, then copy-paste this block of code into your terminal and the magic will happen
 ```
-mv README.md LAB.md
-
-mkdir src
-mkdir src/components
-mkdir src/style
-mkdir src/lib
-mkdir src/__test__
-mkdir src/__test__/mocks
-
-touch src/main.js
-touch src/style/main.scss
-touch src/lib/utils.js
-
-npm init -y
-
-curl -o README.md https://raw.githubusercontent.com/ashtonkellis/401-Lab-Scaffolding/master/readme-template.md
-
-curl -o src/style/_base.scss https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/src/style/_base.scss
-curl -o src/style/_reset.scss https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/src/style/_reset.scss
-curl -o src/style/_vars.scss https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/src/style/_vars.scss
-
-curl -o src/__test__/mocks/styleMock.js https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/src/__test__/mocks/styleMock.js
-
-curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/.babelrc
-curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/.eslintignore
-curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/.eslintrc.json
-curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/.gitignore
-curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/.travis.yml
-curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/webpack.common.js
-curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/webpack.dev.js
-curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/webpack.prod.js
-
-code .
+mv README.md LAB.md && mkdir src src/components src/style src/lib src/__test__ src/__test__/mocks && touch src/main.js src/style/main.scss src/lib/utils.js && npm init -y && curl -o README.md https://raw.githubusercontent.com/ashtonkellis/401-Lab-Scaffolding/master/readme-template.md && curl -o src/style/_base.scss https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/src/style/_base.scss && curl -o src/style/_reset.scss https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/src/style/_reset.scss && curl -o src/style/_vars.scss https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/src/style/_vars.scss && curl -o src/__test__/mocks/styleMock.js https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/src/__test__/mocks/styleMock.js && curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/front-end/28-routing-and-testing/budget-tracker/.babelrc && curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/.eslintignore && curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/.eslintrc.json && curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/.gitignore && curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/.travis.yml && curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/webpack.common.js && curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/webpack.dev.js && curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-FRONTEND-lab-scaffold-template/webpack.prod.js && code .
 
 ```
 
